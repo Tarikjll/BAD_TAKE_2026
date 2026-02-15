@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+}
+@{
+    int hour = DateTime.Now.Hour;
+    var greeting = "";
+    var suggestie = "";
+}
+
+<div class="text-center">
+    @if (hour <= 11)
+    {
+
+        greeting = "Goeiemorgen!";
+        suggestie = "ontbijt-menu";
+
+
+    }
+    else if (hour >= 11 && hour <= 14)
+    {
+
+        greeting = "Goeiemiddag!";
+        suggestie = "lunch-menu";
+    }
+    else if (hour >= 14 && hour <= 17)
+    {
+
+        greeting = "Welkom";
+        suggestie = "suggestie-menu";
+
+    }
+    else
+    {
+        greeting = "GoeieAvond";
+        suggestie = "suggestie-menu";
+        
+    }
+    
+
+    <img src="~/lib/img/logo.png" alt="logo" class="mb-4" />
+
+    <h1 class="display-4">@greeting</h1>
+   
+    <p>Neem snel een kijkje op ons hartelijk @suggestie!</p>
+</div>
