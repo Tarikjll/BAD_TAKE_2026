@@ -1,4 +1,22 @@
 ﻿<!DOCTYPE html>
+
+@{
+    var hour = DateTime.Now.Hour;
+    string suggestie;
+
+    if (hour <= 11)
+    {
+        suggestie = "ONT"; // ontbijt-menu
+    }
+    else if (hour > 11 && hour <= 14)
+    {
+        suggestie = "LUNCH"; // lunch-menu
+    }
+    else
+    {
+        suggestie = "SUGG"; // suggestie-menu
+    }
+}
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -23,8 +41,17 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" 
+                               asp-controller="Menu"
+                               asp-action="Menu"
+                               asp-route-id="@suggestie">
+                                Menu
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="OverOns">Over Ons</a>
                         </li>
+                        
                     </ul>
                 </div>
             </div>

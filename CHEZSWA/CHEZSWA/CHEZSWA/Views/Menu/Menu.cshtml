@@ -1,0 +1,41 @@
+﻿@model CHEZSWA.ViewModels.MenuViewModel
+@{
+    ViewData["Title"] = "Menu";
+
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Linkerkant: geselecteerd menu -->
+        <div class="col-md-8">
+            <h1>@Model.SelectedMenu.Naam</h1>
+
+            <ul class="list-group">
+                @foreach (var gerecht in Model.SelectedMenu.Gerechten)
+                {
+                    if (gerecht.IsVeggie)
+                    {
+                        <li class="list-group-item"><em>@gerecht.Naam (vegetarisch): @gerecht.Prijs.ToString("C")</em></li>
+                    }
+                    else
+                    {
+                        <li class="list-group-item">@gerecht.Naam: @gerecht.Prijs.ToString("C")</li>
+                    }
+                }
+            </ul>
+        </div>
+
+        <!-- Rechterkant: overzicht van alle menu-types -->
+        <div class="col-md-3">
+            <h4>Andere menu's</h4>
+            <ul class="list-group">
+                @foreach (var menu in Model.AllMenus)
+                {
+                    <li class="list-group-item">
+                        <a asp-controller="Menu" asp-action="Menu" asp-route-id="@menu.Id">@menu.Naam</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,29 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\",
+  "WorkspaceRootPath": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\source\\repos\\chezswa\\chezswa\\views\\home\\overons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\views\\home\\overons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\controllers\\reservatiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\controllers\\reservatiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\source\\repos\\chezswa\\chezswa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\models\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\models\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\source\\repos\\chezswa\\chezswa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\views\\menu\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\views\\menu\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\views\\home\\overons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\views\\home\\overons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\source\\repos\\chezswa\\chezswa\\wwwroot\\lib\\img\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\wwwroot\\lib\\img\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\source\\repos\\chezswa\\chezswa\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\source\\repos\\chezswa\\chezswa\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\viewmodels\\menuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\viewmodels\\menuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\models\\gerecht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\models\\gerecht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\wwwroot\\lib\\img\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\wwwroot\\lib\\img\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|c:\\users\\tarik\\desktop\\it - tarik\\onedrive - odisee\\2de jaar\\semester2\\business application development\\taken\\bad_take_2026\\chezswa\\chezswa\\chezswa\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{C0952DE8-4761-48E5-9B28-79FFC99A862C}|CHEZSWA\\CHEZSWA.csproj|solutionrelative:chezswa\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -34,84 +78,226 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "CHEZSWA\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "CHEZSWA\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-15T11:00:28.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "logo.png - PNG [800x800, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\wwwroot\\lib\\img\\logo.png",
-              "RelativeDocumentMoniker": "CHEZSWA\\wwwroot\\lib\\img\\logo.png",
-              "ToolTip": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\wwwroot\\lib\\img\\logo.png - PNG [800x800, 32 bit, PNG]",
-              "RelativeToolTip": "CHEZSWA\\wwwroot\\lib\\img\\logo.png - PNG [800x800, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-02-15T10:55:45.992Z",
-              "EditorCaption": " - PNG [800x800, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CHEZSWA\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CHEZSWA\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-15T10:52:32.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CHEZSWA\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CHEZSWA\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBoAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ReservatieController.cs",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Controllers\\ReservatieController.cs",
+              "RelativeDocumentMoniker": "CHEZSWA\\Controllers\\ReservatieController.cs",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Controllers\\ReservatieController.cs",
+              "RelativeToolTip": "CHEZSWA\\Controllers\\ReservatieController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T10:52:11.878Z",
+              "WhenOpened": "2026-03-24T19:22:34.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CHEZSWA\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "CHEZSWA\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-15T10:51:06.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CHEZSWA\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CHEZSWA\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T18:57:09.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CHEZSWA\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CHEZSWA\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T18:56:56.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CHEZSWA\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CHEZSWA\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-15T10:52:32.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\Menu\\Menu.cshtml",
+              "RelativeDocumentMoniker": "CHEZSWA\\Views\\Menu\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\Menu\\Menu.cshtml",
+              "RelativeToolTip": "CHEZSWA\\Views\\Menu\\Menu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T18:52:12.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "CHEZSWA\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "CHEZSWA\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T18:10:15.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Models\\MenuRepository.cs",
+              "RelativeDocumentMoniker": "CHEZSWA\\Models\\MenuRepository.cs",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Models\\MenuRepository.cs",
+              "RelativeToolTip": "CHEZSWA\\Models\\MenuRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwDQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T18:07:23.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "CHEZSWA\\Models\\Menu.cs",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Models\\Menu.cs",
+              "RelativeToolTip": "CHEZSWA\\Models\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T18:06:47.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "OverOns.cshtml",
-              "DocumentMoniker": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\Views\\Home\\OverOns.cshtml",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\Home\\OverOns.cshtml",
               "RelativeDocumentMoniker": "CHEZSWA\\Views\\Home\\OverOns.cshtml",
-              "ToolTip": "C:\\Users\\tarik\\source\\repos\\CHEZSWA\\CHEZSWA\\Views\\Home\\OverOns.cshtml",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Views\\Home\\OverOns.cshtml",
               "RelativeToolTip": "CHEZSWA\\Views\\Home\\OverOns.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-15T10:50:59.438Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Program.cs",
+              "RelativeDocumentMoniker": "CHEZSWA\\Program.cs",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Program.cs",
+              "RelativeToolTip": "CHEZSWA\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:10:01.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MenuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\ViewModels\\MenuViewModel.cs",
+              "RelativeDocumentMoniker": "CHEZSWA\\ViewModels\\MenuViewModel.cs",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\ViewModels\\MenuViewModel.cs",
+              "RelativeToolTip": "CHEZSWA\\ViewModels\\MenuViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T18:33:41.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CHEZSWA\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CHEZSWA\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T10:52:11.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Gerecht.cs",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Models\\Gerecht.cs",
+              "RelativeDocumentMoniker": "CHEZSWA\\Models\\Gerecht.cs",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Models\\Gerecht.cs",
+              "RelativeToolTip": "CHEZSWA\\Models\\Gerecht.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T18:07:04.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CHEZSWA\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CHEZSWA\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T18:06:18.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CHEZSWA\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CHEZSWA\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-15T11:00:28.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "logo.png - PNG [800x800, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\wwwroot\\lib\\img\\logo.png",
+              "RelativeDocumentMoniker": "CHEZSWA\\wwwroot\\lib\\img\\logo.png",
+              "ToolTip": "C:\\Users\\tarik\\Desktop\\IT - TARIK\\OneDrive - ODISEE\\2de jaar\\semester2\\Business Application Development\\taken\\BAD_TAKE_2026\\CHEZSWA\\CHEZSWA\\CHEZSWA\\wwwroot\\lib\\img\\logo.png - PNG [800x800, 32 bit, PNG]",
+              "RelativeToolTip": "CHEZSWA\\wwwroot\\lib\\img\\logo.png - PNG [800x800, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-02-15T10:55:45.992Z",
+              "EditorCaption": " - PNG [800x800, 32 bit, PNG]"
             }
           ]
         }
