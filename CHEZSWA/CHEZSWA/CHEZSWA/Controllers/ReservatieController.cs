@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CHEZSWA.Models;
+using CHEZSWA.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using System.Reflection;
 
 namespace CHEZSWA.Controllers
 {
@@ -7,19 +10,23 @@ namespace CHEZSWA.Controllers
         [HttpGet]
         public IActionResult Reservatie()
         {
-            return View();
+            return View(new FormViewModel());
         }
 
         [HttpPost]
-        public IActionResult Create(CreateUserModel userModel)
+        [ValidateAntiForgeryToken]
+        public IActionResult Register(FormViewModel usermodel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                return RedirectToAction("Success");
+                usermodel.Akkoord = false; 
+                return View(usermodel);    
             }
-            return View(userModel);
+            TempData["Voornaam"] = usermodel.Voornaam; // voorbeeld: data doorgeven naar bevestiging
+            return RedirectToAction("Bevestiging");
+            
         }
-        public IActionResult Success()
+        public IActionResult Bevestiging()
         {
             return View();
         }
