@@ -1,0 +1,9 @@
+﻿@model CHEZSWA.Models.Reservatie
+
+<h2>Details van reservatie</h2>
+
+<p><strong>Voornaam:</strong> @Model.Voornaam</p>
+<p><strong>Familienaam:</strong> @Model.Familienaam</p>
+<p><strong>Datum:</strong> @Model.Datum.ToString("dd/MM/yyyy")</p>
+
+<a asp-controller="Reservatie" asp-action="Overzicht">Terug naar overzicht</a>

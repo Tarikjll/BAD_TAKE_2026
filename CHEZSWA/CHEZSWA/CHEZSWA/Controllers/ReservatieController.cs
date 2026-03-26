@@ -2,11 +2,15 @@
 using CHEZSWA.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection;
+using CHEZSWA.Models.Repositories;  
 
 namespace CHEZSWA.Controllers
 {
     public class ReservatieController : Controller
     {
+
+        private readonly ReservatieRepository _reservatieRepository = new ReservatieRepository();        
+
         [HttpGet]
         public IActionResult Reservatie()
         {
@@ -18,17 +22,59 @@ namespace CHEZSWA.Controllers
         public IActionResult Register(FormViewModel usermodel)
         {
             if (!ModelState.IsValid)
-            {
-                usermodel.Akkoord = false; 
-                return View(usermodel);    
+            {   
+                usermodel.Akkoord = false;
+                return View("Reservatie", usermodel);  
             }
-            TempData["Voornaam"] = usermodel.Voornaam; // voorbeeld: data doorgeven naar bevestiging
-            return RedirectToAction("Bevestiging");
+
+            Reservatie nieweReservatie = new Reservatie
+            {
+                Voornaam = usermodel.Voornaam,
+                Familienaam = usermodel.Familienaam,
+                Datum = usermodel.Datum,
+                AantalPersonen = usermodel.AantalPersonen,
+                Tijdstip = usermodel.Tijdstip
+            };
+
+            _reservatieRepository.AddReservatie(nieweReservatie);
+            TempData["Voornaam"] = usermodel.Voornaam; 
+            
+            return RedirectToAction("ReservatieBevestiging");
             
         }
-        public IActionResult Bevestiging()
+        public IActionResult ReservatieBevestiging()
         {
             return View();
+
+           
+        }
+
+        public IActionResult Overzicht()
+        {
+            List<Reservatie> reservaties = _reservatieRepository.GetAllReservaties();
+            return View(reservaties);
+        }
+       
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Verwijderen(int id)
+        {
+            _reservatieRepository.RemoveReservatie(id);
+            return RedirectToAction("Overzicht");
+        }
+
+        public IActionResult Details(int id)
+        {
+            Reservatie reservatie = _reservatieRepository.GetReservatieById(id);
+
+            if (reservatie == null)
+            {
+                return NotFound(); 
+            }
+            return View(reservatie);
+
+
         }
     }
 }

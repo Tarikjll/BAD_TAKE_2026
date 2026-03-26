@@ -1,5 +1,6 @@
-using CHEZSWA.Models;
-
+using CHEZSWA.Models.Repositories;
+using CHEZSWA.Models;   
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +8,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<MenuRepository>();
 var app = builder.Build();
 
+string conString = builder.Configuration.GetConnectionString("Default");
+builder.Services.AddDbContext<ChezSwaDbContext>(x => x.UseSqlServer(conString));
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

@@ -1,5 +1,4 @@
 ﻿@model CHEZSWA.ViewModels.FormViewModel
-    
 
 @{
     ViewData["Title"] = "Reservatieformulier";
@@ -7,10 +6,9 @@
 
 <h2>Reservatieformulier</h2>
 
-<!-- Toon algemene validatiefouten -->
 <div asp-validation-summary="All" class="text-danger"></div>
 
-<form asp-action="Formulier" method="post">
+<form asp-controller="Reservatie" asp-action="Register" method="post">
     <div class="form-group">
         <label asp-for="Voornaam"></label>
         <input asp-for="Voornaam" class="form-control" />
@@ -25,13 +23,13 @@
 
     <div class="form-group">
         <label asp-for="Email"></label>
-        <input asp-for="Email" type="email" class="form-control" />
+        <input asp-for="Email" class="form-control" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
     <div class="form-group">
         <label asp-for="BevestigingEmail"></label>
-        <input asp-for="BevestigingEmail" type="email" class="form-control" />
+        <input asp-for="BevestigingEmail" class="form-control" />
         <span asp-validation-for="BevestigingEmail" class="text-danger"></span>
     </div>
 
@@ -61,6 +59,11 @@
         <span asp-validation-for="Akkoord" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-primary mt-3">Verstuur</button>
+    <div class="form-group mt-3">
+        <input type="submit" value="Reserveer" class="btn btn-primary" />
+    </div>
 </form>
 
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

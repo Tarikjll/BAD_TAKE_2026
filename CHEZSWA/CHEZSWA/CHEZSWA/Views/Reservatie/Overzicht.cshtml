@@ -1,0 +1,40 @@
+﻿@model List<CHEZSWA.Models.Reservatie>
+
+@{
+    ViewData["Title"] = "Reservaties Overzicht";
+}
+
+<h2>Reservaties Overzicht</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Voornaam</th>
+            <th>Familienaam</th>
+            <th>Datum</th>
+            <th>Acties</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@r.Voornaam</td>
+                <td>@r.Familienaam</td>
+                <td>@r.Datum.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <!-- Details knop blijft een link -->
+                    <a class="btn btn-primary btn-sm" asp-action="Details" asp-route-id="@r.Id">Details</a>
+
+                    <!-- Verwijderen via POST formulier -->
+                    <form asp-action="Verwijderen" asp-route-id="@r.Id" method="post" style="display:inline;">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger btn-sm">
+                            Verwijderen
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

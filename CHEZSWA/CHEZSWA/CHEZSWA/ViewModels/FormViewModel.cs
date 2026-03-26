@@ -1,6 +1,7 @@
-﻿using CHEZSWA.ViewModels;   
+﻿using CHEZSWA.ViewModels.CustomValidators;
 using System.ComponentModel.DataAnnotations;
-using static CHEZSWA.ViewModels.ExpectedValue;
+using static CHEZSWA.ViewModels.CustomValidators.ExpectedValue;
+using static CHEZSWA.ViewModels.CustomValidators.FutureDate;
 
 namespace CHEZSWA.ViewModels
 {
@@ -31,10 +32,10 @@ namespace CHEZSWA.ViewModels
 
         [Required(ErrorMessage = "Datum van reservatie is verplicht.")]
         [DataType(DataType.Date)]
+        [FutureDate(ErrorMessage = "Datum kan niet in het verleden liggen")]
+
         [Display(Name = "Datum van reservatie")]
         public DateTime Datum { get; set; }
-
-
 
         [Required]
         [Display(Name = "Akkoord met algemene voorwaarden")]
@@ -49,5 +50,10 @@ namespace CHEZSWA.ViewModels
         [Required(ErrorMessage = "Kies een tijdstip.")]
         [Display(Name = "Tijdstip")]
         public Tijdstip Tijdstip { get; set; }
+
+        public FormViewModel()
+        {
+            Datum = DateTime.Today;
+        }
     }
 }

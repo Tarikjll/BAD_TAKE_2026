@@ -47,13 +47,31 @@
                                asp-route-id="@suggestie">
                                 Menu
                             </a>
+
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Reservatie" asp-action="Reservatie">Reservatie</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="reservatieDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Reservatie
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="reservatieDropdown">
+                                <li>
+                                    <a class="dropdown-item text-dark" asp-controller="Reservatie" asp-action="Overzicht">
+                                        Reservatie Overzicht
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-dark" asp-controller="Reservatie" asp-action="Reservatie">
+                                        Nieuwe Reservatie
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="OverOns">Over Ons</a>
                         </li>
+                       
                         
                     </ul>
                 </div>

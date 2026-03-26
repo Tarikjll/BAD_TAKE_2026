@@ -1,6 +1,7 @@
 ﻿using CHEZSWA.Models;
 using Microsoft.AspNetCore.Mvc;
-using CHEZSWA.ViewModels;   
+using CHEZSWA.ViewModels;
+using CHEZSWA.Models.Repositories;
 
 namespace CHEZSWA.Controllers
 {
