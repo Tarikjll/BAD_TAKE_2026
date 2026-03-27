@@ -7,6 +7,9 @@
         public double Prijs { get; set; }
         public bool IsVeggie { get; set; }
 
+        public string MenuId { get; set; }
+        public Menu Menu { get; set; }
+
     }
 
 }

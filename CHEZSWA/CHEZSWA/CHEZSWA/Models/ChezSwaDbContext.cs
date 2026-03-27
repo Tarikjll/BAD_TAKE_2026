@@ -10,6 +10,7 @@ namespace CHEZSWA.Models
         public ChezSwaDbContext(DbContextOptions<ChezSwaDbContext> options) : base(options)
         { 
         }
+       public DbSet<Reservatie> Reservaties { get; set; }   
 
     }
 }

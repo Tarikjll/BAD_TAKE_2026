@@ -4,12 +4,22 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+string conString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<ChezSwaDbContext>(options =>
+    options.UseSqlServer(conString));
+
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ChezSwaDbContext>(x => x.UseSqlServer(conString));
+
 builder.Services.AddSingleton<MenuRepository>();
+builder.Services.AddScoped<ReservatieRepository>();
 var app = builder.Build();
 
-string conString = builder.Configuration.GetConnectionString("Default");
-builder.Services.AddDbContext<ChezSwaDbContext>(x => x.UseSqlServer(conString));
+
+
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

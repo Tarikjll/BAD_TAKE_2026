@@ -3,35 +3,54 @@ using System.Diagnostics;
 namespace CHEZSWA.Models.Repositories
 {
     public class ReservatieRepository
-    {
-        private static List<Reservatie> _reservaties = new List<Reservatie>();   
-        private int _nextId = 1;
+
+    {   
+        private readonly ChezSwaDbContext  _context;
+
+
+
+        public ReservatieRepository(ChezSwaDbContext context)
+        {
+            _context = context;
+        }
 
 
         public Reservatie AddReservatie(Reservatie reservatie)
         {
 
-            reservatie.Id = _nextId++;
-            _reservaties.Add(reservatie);
+          
+            _context.Add(reservatie);
+            _context.SaveChanges();
             return reservatie;
+            
         }
 
         public Reservatie GetReservatieById(int id)
         {
-            return _reservaties.FirstOrDefault(r => r.Id == id);
-        }
+          Reservatie reservatie =  _context.Reservaties.FirstOrDefault(r => r.Id == id);
+           
+           
+            return reservatie;
+
+
+
+                        }
         public void RemoveReservatie(int id)
         {
-            Reservatie reservatie = _reservaties.FirstOrDefault(r => r.Id == id);
+            Reservatie reservatie = _context.Reservaties.FirstOrDefault(r => r.Id == id);
             if (reservatie != null)
             {
-                _reservaties.Remove(reservatie);
+                _context.Remove(reservatie);
             }
+            _context.SaveChanges();
+
         }
 
         public List<Reservatie> GetAllReservaties()
-        {
-            return _reservaties;
+        {   
+            List<Reservatie> reservaties = _context.Reservaties.ToList();
+           
+            return reservaties;
         }
     }
 }

@@ -2,6 +2,7 @@
 using CHEZSWA.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection;
+using Microsoft.EntityFrameworkCore;
 using CHEZSWA.Models.Repositories;  
 
 namespace CHEZSWA.Controllers
@@ -9,7 +10,14 @@ namespace CHEZSWA.Controllers
     public class ReservatieController : Controller
     {
 
-        private readonly ReservatieRepository _reservatieRepository = new ReservatieRepository();        
+     
+
+        private readonly ReservatieRepository _reservatieRepository;       
+        
+        public ReservatieController(ReservatieRepository reservatieRepository)
+        {
+            _reservatieRepository = reservatieRepository;
+        }   
 
         [HttpGet]
         public IActionResult Reservatie()
