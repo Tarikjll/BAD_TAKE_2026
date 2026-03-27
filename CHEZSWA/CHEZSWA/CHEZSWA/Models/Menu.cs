@@ -7,7 +7,7 @@ namespace CHEZSWA.Models
         [Key]
         public string Id { get; set; }
         public string Naam { get; set; }
-        public IEnumerable<Gerecht> Gerechten { get; set; }
+        public ICollection<Gerecht> Gerechten { get; set; }
 
 
     }

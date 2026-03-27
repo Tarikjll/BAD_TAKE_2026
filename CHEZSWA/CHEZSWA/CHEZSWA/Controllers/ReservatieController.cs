@@ -39,6 +39,7 @@ namespace CHEZSWA.Controllers
             {
                 Voornaam = usermodel.Voornaam,
                 Familienaam = usermodel.Familienaam,
+                Email = usermodel.Email,
                 Datum = usermodel.Datum,
                 AantalPersonen = usermodel.AantalPersonen,
                 Tijdstip = usermodel.Tijdstip

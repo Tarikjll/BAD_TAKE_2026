@@ -11,7 +11,7 @@
             <h1>@Model.SelectedMenu.Naam</h1>
 
             <ul class="list-group">
-                @foreach (var gerecht in Model.SelectedMenu.Gerechten)
+                @foreach (Gerecht gerecht in Model.SelectedMenu.Gerechten)
                 {
                     if (gerecht.IsVeggie)
                     {
@@ -29,7 +29,7 @@
         <div class="col-md-3">
             <h4>Andere menu's</h4>
             <ul class="list-group">
-                @foreach (var menu in Model.AllMenus)
+                @foreach (Menu menu in Model.AllMenus)
                 {
                     <li class="list-group-item">
                         <a asp-controller="Menu" asp-action="Menu" asp-route-id="@menu.Id">@menu.Naam</a>

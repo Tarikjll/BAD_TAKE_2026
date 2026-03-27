@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CHEZSWA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44724c2fb3084e608134c7fbff206c81b711f44b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b25ddd918c49e7291ef72aa3d5ececb65e10d843")]
 [assembly: System.Reflection.AssemblyProductAttribute("CHEZSWA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CHEZSWA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

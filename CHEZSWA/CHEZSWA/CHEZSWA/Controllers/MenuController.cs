@@ -19,6 +19,11 @@ namespace CHEZSWA.Controllers
         [HttpGet]
         public IActionResult Menu(string id )
         {
+            if (string.IsNullOrEmpty(id))
+            {
+                id = "ONT";
+            }
+
             Menu selectedMenu = _menuRepository.GetById(id);
             if (selectedMenu == null)
             {

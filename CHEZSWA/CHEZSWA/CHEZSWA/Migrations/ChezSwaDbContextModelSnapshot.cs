@@ -22,6 +22,116 @@ namespace CHEZSWA.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("CHEZSWA.Models.Gerecht", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsVeggie")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("MenuId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Naam")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Prijs")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MenuId");
+
+                    b.ToTable("Gerechten");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            IsVeggie = true,
+                            MenuId = "ONT",
+                            Naam = "Croissant",
+                            Prijs = 2.50m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            IsVeggie = false,
+                            MenuId = "ONT",
+                            Naam = "Omelet",
+                            Prijs = 4.00m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            IsVeggie = true,
+                            MenuId = "LUNCH",
+                            Naam = "Tomatensoep",
+                            Prijs = 5.50m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            IsVeggie = false,
+                            MenuId = "LUNCH",
+                            Naam = "Broodje kip",
+                            Prijs = 6.50m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            IsVeggie = false,
+                            MenuId = "SUGG",
+                            Naam = "Steak",
+                            Prijs = 18.00m
+                        },
+                        new
+                        {
+                            Id = 6,
+                            IsVeggie = true,
+                            MenuId = "SUGG",
+                            Naam = "Gegrilde groenten",
+                            Prijs = 12.00m
+                        });
+                });
+
+            modelBuilder.Entity("CHEZSWA.Models.Menu", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Naam")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Menus");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "ONT",
+                            Naam = "Ontbijtmenu"
+                        },
+                        new
+                        {
+                            Id = "LUNCH",
+                            Naam = "Lunchmenu"
+                        },
+                        new
+                        {
+                            Id = "SUGG",
+                            Naam = "Suggestiemenu"
+                        });
+                });
+
             modelBuilder.Entity("CHEZSWA.Models.Reservatie", b =>
                 {
                     b.Property<int>("Id")
@@ -54,6 +164,22 @@ namespace CHEZSWA.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Reservaties");
+                });
+
+            modelBuilder.Entity("CHEZSWA.Models.Gerecht", b =>
+                {
+                    b.HasOne("CHEZSWA.Models.Menu", "Menu")
+                        .WithMany("Gerechten")
+                        .HasForeignKey("MenuId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Menu");
+                });
+
+            modelBuilder.Entity("CHEZSWA.Models.Menu", b =>
+                {
+                    b.Navigation("Gerechten");
                 });
 #pragma warning restore 612, 618
         }

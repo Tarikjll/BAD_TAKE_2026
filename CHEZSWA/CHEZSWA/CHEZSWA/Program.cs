@@ -13,7 +13,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ChezSwaDbContext>(x => x.UseSqlServer(conString));
 
-builder.Services.AddSingleton<MenuRepository>();
+builder.Services.AddScoped<MenuRepository>();
 builder.Services.AddScoped<ReservatieRepository>();
 var app = builder.Build();
 
